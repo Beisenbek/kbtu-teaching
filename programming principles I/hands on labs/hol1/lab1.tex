@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}%
     \usepackage[final]{pdfpages}
     \usepackage{listings} %For code in appendix
+    \usepackage{hyperref}
     \lstset
     { %Formatting for code in appendix
         language=c++,
@@ -13,10 +14,7 @@
         breakatwhitespace=false,
     }
     \begin{document}
-    \title{Lab work 1}
-    \date{week 1}
-    \author{PP1}
-    \maketitle
+    \section{Lab work 1}
     \section{usefull links for this lab}
     \section{problem set}
     \includepdf[pages=-]{37267.pdf}
@@ -24,6 +22,11 @@
     \includepdf[pages=-]{51447.pdf}
     \includepdf[pages=-]{51191.pdf}
     \includepdf[pages=-]{51445.pdf}
+
+    \section{lab contest}
+    
+    All given task are emplaced in automated checker system for \textbf{lab1}: \url{http://acm.kbtu.kz/cgi-bin/new-register?action=211&contest_id=125}\\
+    Feel free to submit your solutions without attempt count penalty.
 
     \section{solutions}
     \lstinputlisting{37267.cpp}
@@ -33,6 +36,8 @@
     \lstinputlisting{51445.cpp}
 
     \section{Additional tasks for this lab}
-    
+    You can solve problems starting from A to J from the link below:\\
+    \url{https://informatics.msk.ru/mod/statements/view.php?id=2296}\\
+    \textit{note: statements in russian}
 
 \end{document}
